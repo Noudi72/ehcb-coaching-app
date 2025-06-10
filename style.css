@@ -6,6 +6,6 @@
 }
 body {margin:0; font-family:Arial,sans-serif; background:var(--ehcb-blue); color:var(--ehcb-white);}
 header {display:flex; align-items:center; padding:10px; background:var(--ehcb-red);}
-#logo {height:90px; margin-right:auto;}
+#logo {height:150px; margin-right:auto;}
 select {background:var(--ehcb-yellow); border:none; padding:6px;}
 /* ... mehr Styles folgen ... */
