@@ -1,0 +1,11 @@
+:root {
+  --ehcb-red: #c8102e;
+  --ehcb-yellow: #ffe100;
+  --ehcb-blue: #002f6c;
+  --ehcb-white: #ffffff;
+}
+body {margin:0; font-family:Arial,sans-serif; background:var(--ehcb-blue); color:var(--ehcb-white);}
+header {display:flex; align-items:center; padding:10px; background:var(--ehcb-red);}
+#logo {height:40px; margin-right:auto;}
+select {background:var(--ehcb-yellow); border:none; padding:6px;}
+/* ... mehr Styles folgen ... */
