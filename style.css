@@ -5,7 +5,20 @@
   --ehcb-white: #ffffff;
 }
 body {margin:0; font-family:Arial,sans-serif; background:var(--ehcb-blue); color:var(--ehcb-white);}
-header {display:flex; align-items:center; padding:10px; background:var(--ehcb-red);}
-#logo {height:150px; margin-right:auto;}
-select {background:var(--ehcb-yellow); border:none; padding:6px;}
-/* ... mehr Styles folgen ... */
+header {display:flex; align-items:center; padding:14px 16px; background:var(--ehcb-red);}
+#logo {height: 90px; margin-right:auto;}
+select {background:var(--ehcb-yellow); border:none; padding:8px; border-radius:6px; font-weight:bold; font-size:1em;}
+#app {max-width:700px; margin:36px auto; background:var(--ehcb-white); color:var(--ehcb-blue); border-radius:20px; box-shadow:0 2px 20px #1238; padding:30px 20px;}
+button {background:var(--ehcb-red); color:#fff; border:none; border-radius:8px; padding:12px 28px; margin:10px 8px; font-size:1.08em; font-weight:bold; cursor:pointer;}
+button:active {background:var(--ehcb-blue);}
+input, textarea, select:not(#lang-select) {
+  font-size:1em; padding:7px; border:1px solid #ccc; border-radius:7px; margin-bottom:12px; width:100%; box-sizing:border-box;
+}
+h1, h2, h3 {text-align:center;}
+.flex {display:flex; gap:16px;}
+.player-icon {width:34px; vertical-align:middle; margin-right:8px;}
+.training-entry {margin-bottom:18px; border-bottom:1px solid #eee; padding-bottom:12px;}
+@media (max-width: 600px) {
+  #app {padding:12px 3px; border-radius:0;}
+  #logo {height: 56px;}
+}
